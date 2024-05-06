@@ -3,7 +3,7 @@ const app = express();               // Crea una instancia de la aplicación Exp
 const cookieParser = require('cookie-parser') // Middleware para manejar cookies
 const session = require('express-session') // Middleware que facilita el manejo de sessiones
 const { Pool } = require('pg') // Importar el objeto 'Pool' de Postgres (Base de Datos)
-require('dotenv').config(); //Importar y cargar las variables de entorno desde el archivo .env
+require('dotenv').config(); //Ismportar y cargar las variables de entorno desde el archivo .env
 
 app.use(express.static('public'));   // Sirve archivos estáticos desde la carpeta 'public'.
 
